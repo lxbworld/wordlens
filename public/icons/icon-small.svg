@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title id="title">WordLens (16/32px variant): a bold A with a Chinese sticker</title>
+  <desc>Simplified variant of icon.svg for the 16px and 32px sizes, where the speech bubble
+    outline turns to mush. See icon.svg for the full version and the regenerate commands.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0.15" y1="0" x2="0.85" y2="1"><stop offset="0" stop-color="#7C7BFF"/><stop offset="1" stop-color="#4338CA"/></linearGradient>
+    <linearGradient id="st" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDE047"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)"/>
+  <text x="38" y="97" font-family="Helvetica, Arial, sans-serif" font-size="86" font-weight="700" fill="#fff" text-anchor="middle">A</text>
+  <g transform="rotate(-8 98 96)">
+    <path d="M74 92a18 18 0 0 1 18-18h16a11 11 0 0 1 11 11v18a15 15 0 0 1-15 15H89a15 15 0 0 1-15-15z" fill="#FBBF24"/>
+    <path d="M77 92a15 15 0 0 1 15-15h14a10 10 0 0 1 10 10v16a13 13 0 0 1-13 13H90a13 13 0 0 1-13-13z" fill="url(#st)"/>
+    <text x="94" y="103" font-family="PingFang SC, Helvetica, sans-serif" font-size="30" font-weight="600" fill="#422006" text-anchor="middle">中</text>
+  </g>
+</svg>

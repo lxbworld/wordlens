@@ -1,6 +1,6 @@
 {
   "name": "wordlens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "WordLens — a Chrome extension that appends your own Chinese glosses to English words on any page. Local-only, no AI, no server.",
   "license": "MIT",
