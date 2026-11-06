@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WordLens</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WordLens</h1>
+      <span id="count" class="count">0 entries</span>
+    </header>
+    <input
+      id="search"
+      class="search"
+      type="search"
+      placeholder="Search English or Chinese"
+      aria-label="Search dictionary"
+      autocomplete="off"
+    />
+    <ul id="list" class="list"></ul>
+    <p id="empty" class="empty" hidden>
+      No entries yet. Select English text on any page, then click “+ 添加到 WordLens”.
+    </p>
+    <p id="status" class="status" role="status"></p>
+    <script type="module" src="./popup.ts"></script>
+  </body>
+</html>

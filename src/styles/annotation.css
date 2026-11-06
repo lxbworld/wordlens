@@ -1,0 +1,8 @@
+/* Inline gloss appended after an English term. Kept deliberately quiet. */
+.wordlens-annotation {
+  color: #888;
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-left: 2px;
+  white-space: nowrap;
+}
