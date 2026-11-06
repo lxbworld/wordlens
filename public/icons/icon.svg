@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <rect width="128" height="128" rx="26" fill="#4F46E5"/>
-  <text x="64" y="60" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" text-anchor="middle">W</text>
-  <text x="64" y="104" font-family="PingFang SC, Helvetica, Arial, sans-serif" font-size="34" font-weight="500" fill="#c7d2fe" text-anchor="middle">中</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><rect width="128" height="128" fill="#4F46E5" rx="26"/><text x="64" y="60" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" text-anchor="middle">W</text><text x="64" y="104" fill="#c7d2fe" font-family="PingFang SC, Helvetica, Arial, sans-serif" font-size="34" font-weight="500" text-anchor="middle">中</text></svg>
