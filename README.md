@@ -47,15 +47,21 @@ That's it. Click the puzzle-piece icon in the toolbar and **pin WordLens** so it
 
 ## Use it — 20 seconds
 
-| 1. Select an English word or phrase | 2. Write the meaning | 3. It stays annotated everywhere |
-| --- | --- | --- |
-| ![Selection toolbar](docs/screenshot-toolbar.png) | ![Translation editor](docs/screenshot-editor.png) | ![Popup](docs/screenshot-popup.png) |
+**1. Select an English word or phrase** on any page — drag with the mouse, or hold `Shift` and use the arrow keys.
 
-1. **Select** an English word or phrase on any page (drag with the mouse, or hold `Shift` and use the arrow keys).
-2. Click **+ 添加到 WordLens** next to the selection, type the Chinese meaning, hit **Save**.
-3. The page is annotated immediately — and every page you open later that contains the word.
+![The + 添加到 WordLens button appears next to the selection](docs/screenshot-toolbar.png)
 
-Click the WordLens icon to **search**, **fix a meaning** or **delete** an entry. Changes reach pages that are already open, without reloading them.
+**2. Click `+ 添加到 WordLens`, type the Chinese meaning, hit `Save`.**
+
+![The translation editor](docs/screenshot-editor.png)
+
+**3. Done.** The page is annotated immediately — and so is every page you open later that contains the word:
+
+> `speculative decoding` → `speculative decoding（投机解码）`
+
+Click the WordLens icon whenever you want to **search**, **fix a meaning** or **delete** an entry. Changes reach pages that are already open, without reloading them.
+
+![The dictionary popup](docs/screenshot-popup.png)
 
 ### What gets annotated
 
@@ -108,7 +114,8 @@ tests/       unit tests + tests/e2e (real Chromium)
 
 ```bash
 npm install
-npm run build        # writes dist/ — load that folder as an unpacked extension
+npm run build     # writes dist/
+# then load dist/ as an unpacked extension
 ```
 
 | Command | What it does |

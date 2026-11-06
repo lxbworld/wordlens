@@ -47,15 +47,21 @@
 
 ## 20 秒上手
 
-| 1. 选中英文单词或短语 | 2. 填中文意思 | 3. 之后所有页面自动注释 |
-| --- | --- | --- |
-| ![选中后出现按钮](docs/screenshot-toolbar.png) | ![填写中文释义](docs/screenshot-editor.png) | ![词库管理](docs/screenshot-popup.png) |
+**1. 在任意网页上选中一个英文单词或短语** —— 鼠标拖选，或按住 `Shift` 配合方向键。
 
-1. 在任意网页上**选中**一个英文单词或短语（鼠标拖选，或按住 `Shift` 配合方向键）。
-2. 点选区旁的 **+ 添加到 WordLens**，填中文释义，按 **Save**。
-3. 当前页面立刻出现括号注释；以后打开的页面出现同一个词，也会自动注释。
+![选中后选区旁出现按钮](docs/screenshot-toolbar.png)
 
-点工具栏的 WordLens 图标，可以**搜索**、**改释义**、**删词条**。改动对已经打开的页面也立即生效，不用刷新。
+**2. 点 `+ 添加到 WordLens`，填中文释义，按 `Save`。**
+
+![填写中文释义](docs/screenshot-editor.png)
+
+**3. 完成。** 当前页面立刻注释，以后打开的页面出现同一个词也一样：
+
+> `speculative decoding` → `speculative decoding（投机解码）`
+
+点工具栏的 WordLens 图标，随时可以**搜索**、**改释义**、**删词条**。改动对已经打开的页面也立即生效，不用刷新。
+
+![词库管理弹窗](docs/screenshot-popup.png)
 
 ### 什么样的词会被注释
 
@@ -107,7 +113,8 @@ tests/       单元测试 + tests/e2e（真实 Chromium）
 
 ```bash
 npm install
-npm run build        # 产出 dist/，把它当作"已解压的扩展程序"加载
+npm run build        # 产出 dist/
+# 然后把 dist/ 当作「已解压的扩展程序」加载
 ```
 
 | 命令 | 作用 |
